@@ -1,0 +1,16 @@
+{
+    "port": 2121,
+    "root": "ftps_root",
+    "passive_port_start": 50000,
+    "passive_port_end": 50100,
+    "control_timeout": 60,
+    "data_timeout": 30,
+    "pasv_timeout": 10,
+    "username": "ftpuser",
+    "password": "ftppass",
+    "cert_file": "localhost.crt",
+    "key_file": "localhost.key",
+    "use_tls": true,
+    "tls_version": 0,
+    "log_output": 0
+}
